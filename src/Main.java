@@ -38,10 +38,10 @@ public class Main {
 
         Collections.sort(listOfIntegers);
 
-        int maxCal1 = listOfIntegers.get(listOfIntegers.size() - 1);
+        int maxCal1 = listOfIntegers.get(listOfIntegers.size()-1);
         int maxCal2 = listOfIntegers.get(listOfIntegers.size()-2);
         int maxCal3 = listOfIntegers.get(listOfIntegers.size()-3);
-        
+
         System.out.println(maxCal1 + maxCal2 + maxCal3);
     }
 }
